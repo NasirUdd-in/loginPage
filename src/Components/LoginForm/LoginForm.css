@@ -1,0 +1,117 @@
+.loginContainer{
+  width: 715px;
+height: 609px;
+left: 1012px;
+top: 52px;
+background: #FFFFFF;
+box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+border-radius: 10px;
+}
+h6{
+  font-weight: 400px;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: center;
+}
+
+
+
+input[type=text], input[type=password] {
+  width: 380px;
+  height: 53px;
+  display: block;
+  margin : 0 auto;
+  margin-top: 10px;
+border: 2px solid #666666;
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+button {
+  background-color: #3E489A;
+  width: 380px;
+  height: 53px;
+  display: block;
+  margin : 0 auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 119px;
+height: 119px;
+top: 194px;
+}
+
+/* .container {
+  padding: 16px;
+} */
+.password{
+  text-align: right;
+  margin: 20px 150px 20px 20px;
+}
+span.psw {
+  
+  
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+/* text align */
+
+p{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    grid-gap: 1rem;
+    margin-top: 50px;
+  }
+  
+  p:before,
+  p:after {
+    content: "";
+    display: block;
+    
+    border-top: 1px solid #666666;
+    
+  }
+  
+  p.offset {
+    /* grid-template-columns: 1fr auto 3fr; */
+  }
+  
+  p.biggap {
+    grid-gap: 4rem;
+  }
+  .footer{
+    width: 390px;
+    text-align: center;
+    margin-left: 24%;
+    line-height: 35px;
+}
+  
+
+
+ 
